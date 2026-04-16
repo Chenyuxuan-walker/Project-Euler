@@ -17,6 +17,7 @@ int main()
             num++ ;
         }
     printf("%lld\n",num-1) ;
+    return 0 ;
 }
 bool is_prime (long long n)
 {
