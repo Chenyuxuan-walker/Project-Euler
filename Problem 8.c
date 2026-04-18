@@ -27,7 +27,7 @@ int main()
     const int window_size = 13 ;
     long long max_product = 0 ;
     const int length = strlen(number_str) ;
-    for(int i = 0 ; i <= length - window_size  ; i++)
+    for(int i = 0 ; i <= length - window_size ; i++)
     {
         long long current_product = 1 ;
         for(int j = 0; j < window_size ; j++)
