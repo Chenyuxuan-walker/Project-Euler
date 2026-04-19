@@ -10,7 +10,7 @@ int main()
     {
         is_prime[i] = true ;
     } 
-    for(long long i = 2 ; i < sqrt(limit) ; i++)
+    for(long long i = 2 ; i * i < limit ; i++)
     {
         if(is_prime[i]==true)
         {
