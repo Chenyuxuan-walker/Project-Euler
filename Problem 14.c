@@ -15,7 +15,8 @@ int main()
         }
         if (current_length > max_length)
             {
-                max_length = current_length ;                best_start_num = i ;
+                max_length = current_length ;                
+                best_start_num = i ;
             }
     }
     printf("The best number is %d\n " , best_start_num) ;
