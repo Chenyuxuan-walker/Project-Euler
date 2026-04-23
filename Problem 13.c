@@ -124,7 +124,7 @@ int main()
         result[res_index++] = carry % 10 ;
         carry /= 10 ;
     }
-    printf ("The firsst ten digits are :") ; 
+    printf ("The first ten digits are :") ; 
     for (int i = res_index - 1 ; i >= res_index - 10 ; i--)
     {
         printf("%d",result[i]) ;
