@@ -40,7 +40,6 @@ void factorial_recursive(int n)
     factorial_recursive(n-1) ;
     multiply(n) ; 
 }
-
 int sum_digits_recursive(int index)
 {
     if(index >= length)
